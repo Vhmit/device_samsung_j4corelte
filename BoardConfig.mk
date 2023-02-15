@@ -54,5 +54,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
+# SEPolicy
+include device/qcom/sepolicy-legacy-um/sepolicy.mk
+
 # Inherit the proprietary files
 include vendor/samsung/j4corelte/BoardConfigVendor.mk
