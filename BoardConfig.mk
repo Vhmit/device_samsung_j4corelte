@@ -14,6 +14,10 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a53
 TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := msm8937
+TARGET_NO_BOOTLOADER := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 androidboot.selinux=permissive loop.max_part=7
 BOARD_KERNEL_BASE := 0x80000000
@@ -39,6 +43,11 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := msm8937
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno308
 
 # Inherit the proprietary files
 include vendor/samsung/j4corelte/BoardConfigVendor.mk
