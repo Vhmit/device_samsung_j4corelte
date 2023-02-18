@@ -1,0 +1,84 @@
+# All unpinned blobs below are extracted from j4corelteub-user 8.1.0 M1AJB J410GUBS1ASK5 release-keys
+
+# ADSP
+vendor/bin/adsprpcd
+vendor/lib/libadsprpc.so
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libfastcvadsp_stub.so
+vendor/lib/libfastcvopt.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
+
+# ADSP-Modules
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+
+# ANT
+lib/com.qualcomm.qti.ant@1.0.so
+-lib/libantradio.so
+vendor/lib/com.qualcomm.qti.ant@1.0.so
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
+
+# Alarm
+vendor/lib/libalarmservice_jni.so
+vendor/lib/vendor.qti.hardware.alarm@1.0.so
+
+# Audio
+etc/permissions/audiosphere.xml
+framework/audiosphere.jar
+vendor/bin/audioflacapp
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libaudio_soundtrigger.so
+vendor/lib/libdrc.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libaudioeffectoffload.so
+vendor/lib/soundfx/libaudiopreprocessing.so
+vendor/lib/soundfx/libaudiosaplus_sec.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+
+# Audio-ACDB
+vendor/etc/audconf/ODX/Bluetooth_cal.acdb
+vendor/etc/audconf/ODX/General_cal.acdb
+vendor/etc/audconf/ODX/Global_cal.acdb
+vendor/etc/audconf/ODX/Handset_cal.acdb
+vendor/etc/audconf/ODX/Hdmi_cal.acdb
+vendor/etc/audconf/ODX/Headset_cal.acdb
+vendor/etc/audconf/ODX/Speaker_cal.acdb
+vendor/etc/audconf/ODX/workspaceFile.qwsp
+vendor/etc/audconf/OGC/Bluetooth_cal.acdb
+vendor/etc/audconf/OGC/General_cal.acdb
+vendor/etc/audconf/OGC/Global_cal.acdb
+vendor/etc/audconf/OGC/Handset_cal.acdb
+vendor/etc/audconf/OGC/Hdmi_cal.acdb
+vendor/etc/audconf/OGC/Headset_cal.acdb
+vendor/etc/audconf/OGC/Speaker_cal.acdb
+vendor/etc/audconf/OGC/workspaceFile.qwsp
+vendor/etc/audconf/OPEN/Bluetooth_cal.acdb
+vendor/etc/audconf/OPEN/General_cal.acdb
+vendor/etc/audconf/OPEN/Global_cal.acdb
+vendor/etc/audconf/OPEN/Handset_cal.acdb
+vendor/etc/audconf/OPEN/Hdmi_cal.acdb
+vendor/etc/audconf/OPEN/Headset_cal.acdb
+vendor/etc/audconf/OPEN/Speaker_cal.acdb
+vendor/etc/audconf/OPEN/workspaceFile.qwsp
+
+# Audio-Hardware
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.msm8937.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib/soundfx/libqcompostprocbundle.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
