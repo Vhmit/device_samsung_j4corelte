@@ -57,5 +57,9 @@ TARGET_USES_MKE2FS := true
 # SEPolicy
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 
+# Treble
+BOARD_VNDK_VERSION := current
+BOARD_VNDK_RUNTIME_DISABLE := true
+
 # Inherit the proprietary files
 include vendor/samsung/j4corelte/BoardConfigVendor.mk
